@@ -10,3 +10,15 @@ function acessar(){
                 window.location.href = 'cadastro.html'
             }
      }
+     var dadosLista = [];
+ 
+function salvarUser(){
+    let nomeUser = document.getElementById('nomeUser').value;
+ 
+    if(nomeUser){
+        dadosLista.push(nomeUser);
+        console.log(dadosLista);
+    }else{
+        alert("favor informar o nome para cadastro");
+    }
+}
