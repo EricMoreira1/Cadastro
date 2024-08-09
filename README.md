@@ -5,7 +5,7 @@
 ![página(após salvar nome)](imagem/Captura%20de%20tela%202024-08-09%20090214.png)
 
 ## Imagem do projeto (Login)
-![Página de login](imagem/Captura%20de%20tela%202024-08-09%20090615.png)
+![Página de login](imagem/Captura%20de%20tela%202024-08-09%20111557.png)
 
 ## Códigos de JavaScript utilizados
 Para que este código funcionasse foram utilizadas as seguintes funções
@@ -23,6 +23,9 @@ acompanhado do nome da tabela aonde será enviado o nome escrito no espaço.
 Também presente nos códigos do JS, ele tem a função de alterar a tabela e adicionar<br>
 o nome salvo.
 
+### deleteRow
+Essa função apaga uma certa linha escrita pertencente a tabela.
+
 ### getElementById
 Pega o elemnto referenciado pelo ID indicado nos parenteses da função.
 
@@ -36,3 +39,5 @@ Pega o elemnto referenciado pelo ID indicado nos parenteses da função.
 
 ## Ferramentas utilizadas 
 * `VScode` 
+
+## fontes utilizadas para documentação
