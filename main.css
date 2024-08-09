@@ -8,7 +8,7 @@ body {
     width: 100%;
     height: 100vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: linear-gradient(-45deg, #594685, #7159ad, #7e5dd3, #8b67da, #9d85d4);
+    background: linear-gradient(-45deg, #468582, #3e9790, #3faa8f, #27ca99, #4cffba);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,13 +43,13 @@ form {
     padding: 10px;
     border-radius: 5px;
     border: none;
-    background-color: #3fc9ab;
-    color: rgb(62, 207, 164);
+    background-color: #1d473e;
+    color: rgb(105, 211, 179);
     cursor: pointer;
 }
 
 .container button:hover {
-    background-color: #48c5ff;
+    background-color: #8acbe9;
 }
 
 label{
