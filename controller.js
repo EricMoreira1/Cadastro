@@ -27,13 +27,18 @@ function salvarUser() {
     }
 }
 
-//função para criar lista
-function criaLista() {
+// FUNÇÃO PARA CRIAR LISTA
+function criaLista(){
     let tabela = document.getElementById('tabela').innerHTML = "<tr><th>Nome Usuário</th><th>Ações</th></tr>";
-    for (let i = 0; i <= (dadosLista.length - 1); i++) {
-        tabela += "<tr><td>" + dadosLista[i] + "</td><td></td><tr>";
+    for(let i = 0; i <= (dadosLista.length-1); i++){
+        tabela += "<tr><td>" + dadosLista[i] + "</td><td><button type='button' onclick='editar(this.parentNode.parentNode.rowIndex)'>Editar</button></td></tr>";
         document.getElementById('tabela').innerHTML = tabela;
-        // coloca dentro da tabela um dado dentro do array
     }
 }
-
+ 
+ 
+// FUNÇÃO PARA EDITAR NOMES DA LISTA
+function editar(i){
+    document.getElementById('nomeUser').value = dadosLista[(i - 1)];
+    dadosLista.splice(dadosLista[(i - 1)], 1);
+}
