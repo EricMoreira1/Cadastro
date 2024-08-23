@@ -13,12 +13,21 @@
             <div class="container">
                 <label for="">nome:</label>
                 <input type="text" id="nomeUser" class="form-control"><br>
-                <button type="button" onclick="salvarUser()" class="btn btn-succes">SALVAR</button>
+
+            <form action="">
+                <label for="">Email:</label>
+                <input type="text" id="emailUser" class="form-control">
+                <br>
+            <p id = "email"></p>
+
+            </form>
+                <button type="button" onclick="salvarUser()" class="btn btn-succes" onclick="checarEmail()">SALVAR</button>
             </div>
             <div class="container">
                 <table class="table table-striped" id="tabela">
                     <tr>
                         <th>nome Usuario</th>
+                        <th>Email</th>
                         <th>ações</th>
                     </tr>
          

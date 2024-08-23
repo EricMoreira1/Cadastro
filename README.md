@@ -29,6 +29,9 @@ Essa função apaga uma certa linha escrita pertencente a tabela.
 ### getElementById
 Pega o elemnto referenciado pelo ID indicado nos parenteses da função.
 
+### indexOf
+ retorna o primeiro índice em que o elemento pode ser encontrado no array,<br>
+  retorna -1 caso o mesmo não esteja presente
 # Tecnologias utilizadas 
 *`HTML5`<br>
 *`CSS3`<br>
