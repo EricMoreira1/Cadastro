@@ -1,8 +1,8 @@
 # Cadastro
 
 ## Imagens do projeto (cadastro) 
-![página(sem alterações)](imagem/Captura%20de%20tela%202024-08-09%20090159.png)
-![página(após salvar nome)](imagem/Captura%20de%20tela%202024-08-09%20112630.png)
+![página(sem alterações)](imagem/imagem_certa.png)
+![página(após salvar nome)](imagem/imagem_certa2.png)
 
 ## Imagem do projeto (Login)
 ![Página de login](imagem/Captura%20de%20tela%202024-08-09%20111557.png)
