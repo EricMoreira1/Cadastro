@@ -7,6 +7,17 @@
 ## Imagem do projeto (Login)
 ![Página de login](imagem/Captura%20de%20tela%202024-08-09%20111557.png)
 
+## Atualizações do Projeto
+
+### Adição do Campo de Email e os códigos de validação
+Pra que o códigos ficasse mais completo, foi adcionada a meta de adcionar o Email<br>
+ao projeto, e também pedido que o Email só seria válido se estivesse escrito de maneira correta, <br>
+no Js foi nessessário a criação de mais uma várialvel (emailLista), foi preciso mexer na função de editar e<br>
+excluir, pois se o email é informado junto ao nome os dois precisam ser editaveis e excluiveis, e assim foi feito,<br>
+para a validação utilizamos um códigos já feito antes (no repositório de validações) e também tinha que ser encaixado<br>
+perfeitamente alinhado ao código, caso o contrário não funcionária, o código de válidação verifica se havia espaços, arroba e ponto, se não tivesse nãio seria aceito.
+
+
 ## Códigos de JavaScript utilizados
 Para que este código funcionasse foram utilizadas as seguintes funções
 
@@ -32,6 +43,7 @@ Pega o elemnto referenciado pelo ID indicado nos parenteses da função.
 ### indexOf
  retorna o primeiro índice em que o elemento pode ser encontrado no array,<br>
   retorna -1 caso o mesmo não esteja presente
+
 # Tecnologias utilizadas 
 *`HTML5`<br>
 *`CSS3`<br>
