@@ -48,7 +48,7 @@ function criaLista(){
  
 // FUNÇÃO PARA VALIDAR O EMAIL INFORMADO
 function checarEmail(email){
-    if (email == "" || // Verifica se não há espaços no texto
+    if (email == "" || // Verifica se não há espaços no texto informado
         email.indexOf("@") == -1 || // Verifica se tem @ no texto informado
         email.indexOf(".") == -1) { // Verifica se tem . no texto informado
         alert("Por favor informe um email válido"); // se não houver nenhum dos requisitos o alert será ativado
