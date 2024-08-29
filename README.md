@@ -44,7 +44,7 @@ Pega o elemnto referenciado pelo ID indicado nos parenteses da função.
 * `VScode` 
 
 ## fontes utilizadas para documentação
-Site: Mozilla
+[Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Linkedin do desenvolvedor
 [Meu perfil no linkedin](https://www.linkedin.com/in/eric-mendes-moreira-b5a49b301/)
